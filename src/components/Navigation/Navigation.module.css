@@ -1,0 +1,19 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: aliceblue;
+  transition: background 250ms linear;
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.151);
+  transition: background 250ms linear;
+}
+
+.activeLink {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.151);
+  transition: background 250ms linear;
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 4px;
+}
+
+.name {
+  margin-right: 12px;
+
+  color: white;
+  font-weight: 700;
+}
+
+.btn {
+  margin-right: 15px;
+  display: block;
+
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid white;
+
+  cursor: pointer;
+
+  transition: background 250ms linear;
+}
+
+.btn:hover {
+  background: white;
+  transition: background 250ms linear;
+}

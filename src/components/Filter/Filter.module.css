@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 15px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  color: aliceblue;
+}
+
+.input {
+  margin-left: 10px;
+}

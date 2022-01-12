@@ -1,0 +1,30 @@
+.form {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+  color: aliceblue;
+}
+
+.button {
+  margin: 0 auto;
+  display: block;
+
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid white;
+
+  cursor: pointer;
+
+  transition: background 250ms linear;
+}
+
+.button:hover {
+  background: white;
+  transition: background 250ms linear;
+}
